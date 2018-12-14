@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0275E5221C43D9300686C63 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0275E5121C43D9300686C63 /* InternetDetailViewController.swift */; };
+		F0275E5421C4455400686C63 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0275E5321C4455400686C63 /* InternetMasterViewController.swift */; };
 		F0F55DFF21C1AC090015071C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F55DFE21C1AC090015071C /* AppDelegate.swift */; };
-		F0F55E0121C1AC090015071C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F55E0021C1AC090015071C /* ViewController.swift */; };
 		F0F55E0421C1AC090015071C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F55E0221C1AC090015071C /* Main.storyboard */; };
 		F0F55E0621C1AC160015071C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F55E0521C1AC160015071C /* Assets.xcassets */; };
 		F0F55E0921C1AC160015071C /* View in Resources */ = {isa = PBXBuildFile; fileRef = F0F55E0721C1AC160015071C /* View */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0275E5121C43D9300686C63 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		F0275E5321C4455400686C63 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		F0F55DFB21C1AC090015071C /* InternetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F55DFE21C1AC090015071C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0F55E0021C1AC090015071C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0F55E0321C1AC090015071C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0F55E0521C1AC160015071C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0F55E0821C1AC160015071C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +58,7 @@
 			children = (
 				F0F55E1021C1AC2B0015071C /* Resources */,
 				F0F55E1121C1AC350015071C /* Controller */,
-				F0F55E1221C1AC840015071C /* New Group */,
+				F0F55E1221C1AC840015071C /* View */,
 			);
 			path = InternetProject;
 			sourceTree = "<group>";
@@ -74,18 +76,19 @@
 		F0F55E1121C1AC350015071C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F0F55E0021C1AC090015071C /* ViewController.swift */,
+				F0275E5121C43D9300686C63 /* InternetDetailViewController.swift */,
+				F0275E5321C4455400686C63 /* InternetMasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		F0F55E1221C1AC840015071C /* New Group */ = {
+		F0F55E1221C1AC840015071C /* View */ = {
 			isa = PBXGroup;
 			children = (
 				F0F55E0221C1AC090015071C /* Main.storyboard */,
 				F0F55E0721C1AC160015071C /* View */,
 			);
-			path = "New Group";
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F55E0121C1AC090015071C /* ViewController.swift in Sources */,
+				F0275E5221C43D9300686C63 /* InternetDetailViewController.swift in Sources */,
+				F0275E5421C4455400686C63 /* InternetMasterViewController.swift in Sources */,
 				F0F55DFF21C1AC090015071C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
